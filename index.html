@@ -9,21 +9,20 @@
 </head>
 <body>
     <h2 class="header">New Book</h2>
-    <form class="add-book">
-        <input class="add-book__text" type="text" name="title" placeholder="Title">
-        <input class="add-book__button" type="submit" value="Add"><br>
-        <input class="add-book__text" type="text" name="author" placeholder="Author">
-        <input class="add-book__button" type="submit" value="Add"><br>
-        <select class="add-book__select" name="category" method="post" action="index.html">
-            <option value="business" class="class">Business</option>
-            <option value="fiction" class="class">Fiction</option>
-            <option value="about children" class="class">Books about children</option>
-            <option value="science" class="class">Science</option>
-            <option value="it" class="class">Information technology</option>
-            <option value="publicism" class="class">Publicism</option>
-            <option value="religion" class="class">Religions</option>
-            <option value="hobby" class="class">Hobby</option>     
-        </select>   
+    <form class="add-book" method="post" action="index.html">
+        <input class="add-book__text" type="text" name="title" placeholder="Title"><br>
+        <input class="add-book__text" type="text" name="author" placeholder="Author"><br>
+        <select class="add-book__select" name="category">
+            <option value="business">Business</option>
+            <option value="fiction">Fiction</option>
+            <option value="about_children">Books about children</option>
+            <option value="science">Science</option>
+            <option value="it">Information technology</option>
+            <option value="publicism">Publicism</option>
+            <option value="religion">Religions</option>
+            <option value="hobby">Hobby</option>     
+        </select><br>
+        <input class="add-book__button" type="submit" value="Add">   
     </form>
     <ul class="books"></ul>
     <script src="main.js"></script>

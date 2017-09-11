@@ -4,7 +4,7 @@ body {
     margin: 20px;
     background-color: rgb(147,112,219);
     color: white;
-    font-family: Georgia, Times, Times New Roman, serif;
+    font-family: Georgia, Times, "Times New Roman", serif;
 }
 
 .header {
@@ -23,7 +23,7 @@ body {
     height: 50px;
     border: 1px solid rgb(147,112,219);
     border-radius: 3px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 20px;
     font-weight: 300;
     color: rgb(147,112,219);
@@ -33,15 +33,18 @@ body {
     box-sizing: border-box;
 }
 
+.add-book__select {
+    border-radius: 0px;
+}
+
 .add-book__button {
     max-width: 40%;
-    margin-left: 5px;
     padding: 12px 50px;
     border-radius: 3px;
     border: 1px solid hsl(82, 100%, 41%);
     background-color: rgb(153, 205, 48);
     font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
     color: #fff;
 }
 
@@ -49,7 +52,7 @@ body {
     color:  rgb(147,112,219);
 }
 
-.add-book__text:active, 
+/* .add-book__text:active, 
 .add-book__select:active {
     border: 1px solid hsl(82, 100%, 41%);
-}
+} */
