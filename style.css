@@ -1,0 +1,55 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+    background-color: rgb(147,112,219);
+    color: white;
+    font-family: Georgia, Times, Times New Roman, serif;
+}
+
+.header {
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.add-book {
+    max-width: 95%;
+}
+
+.add-book__text, .add-book__select {
+    max-width: 50%;
+    height: 50px;
+    border: 1px solid rgb(147,112,219);
+    border-radius: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(147,112,219);
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.add-book__button {
+    max-width: 40%;
+    margin-left: 5px;
+    padding: 12px 50px;
+    border-radius: 3px;
+    border: 1px solid hsl(82, 100%, 41%);
+    background-color: rgb(153, 205, 48);
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+}
+
+::-webkit-input-placeholder {
+    color:  rgb(147,112,219);
+}
+
+.add-book__text:active, 
+.add-book__select:active {
+    border: 1px solid hsl(82, 100%, 41%);
+}
